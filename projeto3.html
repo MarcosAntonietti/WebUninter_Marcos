@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos Pessoais - Trabalho Desenvolvimento Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+</html>
+    <main> <!-- Cria seção para projetos pessoais -->
+        <section>
+            <h2>Projetos Pessoais</h2>
+            <p>Este é um espaço dedicado aos meus projetos pessoais, onde compartilho minhas experiências e aprendizados em desenvolvimento web.</p>
+
+            
+        </section>
+
+        <p class="projeto1  ">Site para minha namorada <button>Ver Projeto</button></p>
+    </main>
+
+    <script>  <!-- Adiciona funcionalidade ao botão -->
+
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+            window.location.href = 'https://euteamoerica.netlify.app/';
+        });
+    </script>
+
+    <style>
+        body {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('./images/soft.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: #282ac2;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            height: auto;
+            width: 50%;
+            margin: 0 auto;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+            background-color: rgba(167, 100, 184, 0.7);
+            color: #ffffff;
+        }
+
+        .projeto1 {
+            height: auto;
+            width: 50%;
+            margin: 0 auto;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+
+            background-color: rgba(167, 100, 184, 0.7);
+            color: #ffffff;
+        }
+    </style>
+</html>
